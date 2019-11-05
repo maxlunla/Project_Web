@@ -2,12 +2,8 @@
 body {
 	max-width: 100%;
 	border: 0;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.05)), url("../พระราชกรณีกิจด้านการศึกษา/จอคอม/1โรงเรียนในพระราชู/พื้นหลัง.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.05)), url("../พระราชกรณีกิจด้านการศึกษา/โทรศัพท์/mobileหน้าหลัก/พื้นหลัง.png");
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: 0% 0%;
-	background-size: 100% 100%;
 	font-family: 'Taviraj', serif;
 	font-size: 10pt;
 	overflow-x: hidden;
@@ -32,9 +28,9 @@ header {
 .menu_size {
 	display: block;
 	position: absolute;
-	width: 5%;
+	width: 4%;
 	margin-left: 18%;
-	margin-top: 2.5%;
+	margin-top: 3.5%;
 	z-index: 6;
 }
 
