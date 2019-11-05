@@ -516,7 +516,7 @@ footer {
 	/* แก้ไข footer */
 	footer {
 		width: 100%;
-		margin-left: 0%;
+		margin-left: -2%;
 		margin-top: 202.75%;
 		font-size: 1.75vw;
 	}
