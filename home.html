@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- ตั้งค่า viewport ให้เป็นความกว้างของ device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>พระราชกรณียกิจด้านการศึกษา</title>
+	<!-- ลิ้งค์ font จาก google font และลิ้งค์ไฟล์ CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Taviraj&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css\layout.css">
+</head>
+
+<body>
+	<!------------------------------------------------------------------->
+	<!-- ส่วนของแถบเมนู -->
+	<header>
+		<img class="box_img1" src="พระราชกรณีกิจด้านการศึกษา/โทรศัพท์/mobileหน้าหลัก/เส้นบน.png">
+		<img id="menu_size" class="menu_size" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/หน้าหลัก.png" onclick="menu_bar()">
+		<img class="book_size" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/หัวข้อใหญ่.png" onclick="location.href='home.html'">
+		<img class="visual_img" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/หมวกวนลูป.png" onclick="location.href='index.html'">
+	</header>
+	<!------------------------------------------------------------------->
+	<div class="sub_menu" id="sub_menu">
+		<img class="menu_img" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/เส้นทุน.png">
+		<div class="sub_menu1" onclick="location.href='page1.html'">
+			<p>
+				โรงเรียนในบรมราชูปถัมถ์
+			</p>
+		</div>
+		<div class="sub_menu2" onclick="location.href='page2.html'">
+			<p>
+				ทุนการศึกษาพระราชทาน
+			</p>
+		</div>
+		<div class="sub_menu3" onclick="location.href='page3.html'">
+			<p>
+				โครงการสารานุกรมไทยสำหรับเยาวชน
+			</p>
+		</div>
+		<div class="sub_menu4" onclick="location.href='page4.html'">
+			<p>
+				พิธีพระราชทานปริญญาบัตรแก่ผู้สำเร็จการศึกษา
+			</p>
+		</div>
+	</div>
+	<!------------------------------------------------------------------->
+	<!-- ส่วนของเนื้อหาของเว็บ -->
+	<div class="main_content" id="main_content"></div>
+		<img class="topic_img" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/หัวข้อข้างๆรูป.png">
+		<img class="king_img" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/รูปในหลวงมีเส้น.png">
+		<img class="box_img2" src="พระราชกรณีกิจด้านการศึกษา/โทรศัพท์/mobileหน้าหลัก/เส้นข้าง.png">
+
+		<!-- ส่วนของเมนูข้างล่างหัวข้อใหญ่ ที่สามารถเชื่อมไปยังหน้าอื่นๆ -->
+		<div class="bottom_menu">
+			<div class="menu1" onclick="location.href='page1.html'">
+				<p>
+					<b>โรงเรียนในบรมราชูปถัมถ์</b>
+					<img class="topic_img1" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/เส้นใต้หัวข้อย่อย-1.png">
+				</p>
+			</div>
+			<div class="menu2" onclick="location.href='page2.html'">
+				<p>
+					<b>ทุนการศึกษาพระราชทาน</b>
+					<img class="topic_img2" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/เส้นใต้หัวข้อย่อย-2.png">
+				</p>
+			</div>
+			<div class="menu3" onclick="location.href='page3.html'">
+				<p>
+					<b>โครงการสารานุกรมไทยสำหรับเยาวชน</b>
+					<img class="topic_img3" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/เส้นใต้หัวข้อย่อย-3.png">
+				</p>
+			</div>
+			<div class="menu4" onclick="location.href='page4.html'">
+				<p>
+					<b>พิธีพระราชทานปริญญาบัตรแก่ผู้สำเร็จการศึกษา</b>
+					<img class="topic_img4" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/เส้นใต้หัวข้อย่อย-4.png">
+				</p>
+			</div>
+		</div>
+	<!------------------------------------------------------------------->
+
+	<!------------------------------------------------------------------->
+	<footer>
+		<p>
+			เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์ คณะสถาปัตยกรรมศาสตร์ และการโปรแกรมและสื่อประสม แขนงวิชาการพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ
+		</p>
+		<p>
+			สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง &copy;2019
+		</p>
+	</footer>
+
+	<!-- ใช้ Javascript ในการทำเมนู Hamburger -->
+	<script>
+		var num = 0;
+		var con_var = 0;
+		function menu_bar() {
+			if (num == 0) {
+				var elem = document.getElementById("sub_menu");
+				var content = document.getElementById("main_content");
+				var id = setInterval(frame, 0.1);
+				function frame() {
+					if (num == 45) {
+						clearInterval(id);
+					} 
+					else {
+						num = num + 5; 
+						con_var = con_var + 4;
+						elem.style.height = num + "%";
+						content.style.marginTop = con_var + "%";					
+					}
+				}
+			}
+			if(num == 45){
+				var elem = document.getElementById("sub_menu");
+				var content = document.getElementById("main_content");
+				var id = setInterval(frame, 0.1);
+				function frame() {
+					if (num == 0) {
+						clearInterval(id)
+					}
+					else {
+						num = num - 5;
+						con_var = con_var - 4;
+						elem.style.height = num + "%";
+						content.style.marginTop = con_var + "%";					
+					}
+				}
+			}
+		}		
+	</script>
+</body>
+
+</html>

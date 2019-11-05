@@ -1,0 +1,355 @@
+/* กำหนดภาพพื้นหลัง และ font ของเว็บ */
+body {
+	max-width: 100%;
+	border: 0;
+	background-image: url("../พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/พื้นหลัง.png");
+	background-size: cover;
+	font-family: 'Taviraj', serif;
+	font-size: 10pt;
+	overflow-x: hidden;
+}
+
+/*--------------------------------------------------------*/
+/* การแก้ไขของส่วน Header */
+/* กำหนดความกว้าง และความสูงของ header */
+header {
+	width: 100%;
+	height: 10%;
+}
+
+/* ซ่อนเอาไว้ เพราะใน Desktop ไม่ได้ใช้ */
+.box_img1 {
+	display: none;
+}
+
+/* ซ่อนเอาไว้ เพราะใน Desktop ไม่ได้ใช้ */
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+.menu_size {
+	display: none;
+}
+
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+.book_size {
+	position: absolute;
+	width: 20%;
+	/*height: 20%;*/
+	margin-left: 39%;
+	z-index: 4;
+}
+
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+.visual_img {
+	position: absolute;
+	width: 10%;
+	/*height: 15%;*/
+	margin-left: 70%;
+	z-index: 3;
+}
+
+/* ส่วนของเมนูที่จะแสดงเมื่อกดรูปภาพที่มีคลาสเป็น menu_size */
+.menu_img {
+	display: none;
+}
+/*--------------------------------------------------------*/
+
+.sub_menu {
+	display: none;
+}
+/*--------------------------------------------------------*/
+/* ส่วนของการปรับแก้ไขด้วย CSS ของเนื้อหาของเว็บ */
+/* แก้ไขความกว้าง และสูงของส่วนของเนื้อหา */
+.main_content {
+	width: 100%;
+	height: 80%;
+	margin-top: 0%;
+	transition: 1s all;
+}
+
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ content */
+.king_img {
+	position: absolute;
+	width: 40%;
+	margin-left: 43.5%;
+	margin-top: 5.75%;
+}
+
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ content */
+.topic_img {
+	position: absolute;
+	width: 33%;
+	padding-top: 15%;
+	padding-left: 18%;
+}
+
+/* ซ่อนภาพไว้จากการไม่ได้ใช้ */
+.box_img2 {
+	display: none;
+}
+
+/*------------------------------------*/
+/* ส่วนของเมนูด้านล่างของเว็บ */
+/* กำหนดตำแหน่งของเมนู และขนาดของตัวอักษร */
+.bottom_menu {
+	position: absolute;
+	font-size: 1vw;
+	padding-left: 20%;
+	padding-top: 35%;
+}
+
+/* กำหนดขนาดของรูปตามสัดส่วนของ tag <p> */
+p img {
+	height: 1em;
+	width: auto;
+}
+
+/* กำหนดความกว้างของ div ที่เก็บ tag <p> */
+.menu1 {
+	width: 55%;
+}
+.menu2 {
+	width: 55%;
+}
+.menu3 {
+	width: 80%;
+}
+.menu4 {
+	width: 100%;
+}
+
+/* กำหนดขนาด และตำแหน่งของรูปที่ใช้เป็น hover ของ menu1 ถึง menu4 */
+.topic_img1 {
+	position: absolute;
+	opacity: 0;
+	height: 10%;
+	width: 35%;
+	margin-top: -3.5%;
+	margin-left: -27%;
+
+}
+.topic_img2 {
+	position: absolute;
+	opacity: 0;
+	height: 10%;
+	width: 35%;
+	margin-top: -3.25%;
+	margin-left: -27%;
+
+}
+.topic_img3 {
+	position: absolute;
+	opacity: 0;
+	height: 10%;
+	width: 50%;
+	margin-top: -3%;
+	margin-left: -41%;
+
+}
+.topic_img4 {
+	position: absolute;
+	opacity: 0;
+	height: 10%;
+	width: 60%;
+	margin-top: -3%;
+	margin-left: -50%;
+}
+/* ------------------------------------ */
+
+/* ------------------------------------ */
+/* ส่วนของ footer */
+/* กำหนดขนาด และนาดอักษรให้ footer */
+footer {
+	position: absolute;
+	width: 63.7%;
+	font-size: 0.75vw;
+	margin-top: 50%;
+	margin-left: 17.45%;
+	text-align: center;
+	border-top: 1px solid;
+}
+/* ------------------------------------ */ 
+
+/*------------------------------------------- */
+/* ส่วนของการทำ hover  */
+.menu1:hover .topic_img1 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.menu2:hover .topic_img2 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.menu3:hover .topic_img3 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.menu4:hover .topic_img4 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.book_size {
+	cursor: pointer;
+}
+.visual_img {
+	cursor: pointer;	
+}
+
+/* ------------------------------------ */
+/* แก้ไขความเพี้ยนของ footer ใน responsive ความกว้างที่ต่ำกว่า 768 */
+@media only screen and (max-width: 768px) {
+	footer {
+		margin-left: 17%;
+	}
+}
+/* ------------------------------------ */ 
+
+/* ------------------------------------ */ 
+/* ทำ Responsive ให้โทรศัพท์ที่ความกว้างต่ำกว่า 600 */
+@media only screen and (max-width: 600px) {
+
+	/*------------------------------------------- */
+	/* ส่วนของ header */
+	/* แสดงผลของกล่องบน header */
+	.box_img1 {
+		display: block;
+		width: 100%;
+		margin-top: -1%;
+	}
+
+	/* แสดงผลของ menu */
+	.menu_size {
+		display: block;
+		position: absolute;
+		width: 20%;
+		margin-left: 2%;
+		margin-top: 3%;
+		z-index: 6;
+	}
+
+	.book_size {
+		width: 33%;
+		margin-left: 32.5%;
+	}
+
+	.visual_img {
+		width: 14%;
+		margin-top: -2%;
+		margin-left: 83%;
+	}
+
+	/*------------------------------------------- */
+	/* ส่วนจัดการแถบเมนู */
+	/* แสดงแถบเมนูเมื่อกดเมนู */
+	.menu_img {
+		display: block;
+		position: absolute;
+		width: 8%;
+		margin-left: 1%;
+		margin-top: -14%;
+	}
+	/* จัดการความกว้าง และขนาดของเมนู */
+	.sub_menu {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 0%; /* ค่าสูงสุดคือ 45% */
+		margin-top: 5%;
+		z-index: 3;
+		overflow-y: hidden;
+		overflow-x: visible;
+		transition: 1s all;
+		font-size: 2vw;
+	}
+	/* จัดการข้อความ */
+	.sub_menu1 {
+		position: absolute;
+		width: 25%;
+		padding-left: 10%;
+		padding-top: 11%;
+		z-index: 5;
+	}
+	.sub_menu2 {
+		position: absolute;
+		width: 25%;
+		padding-left: 10%;
+		padding-top: 17%;
+		z-index: 4;
+	}
+	.sub_menu3 {
+		position: absolute;
+		width: 35%;
+		padding-left: 10%;
+		padding-top: 23.5%;
+		z-index: 3;
+	}
+	.sub_menu4 {
+		position: absolute;
+		width: 45%;
+		padding-left: 10%;
+		padding-top: 31%;
+		z-index: 2;
+	}
+	/*------------------------------------------- */
+
+	/*------------------------------------------- */
+	/* ส่วนของ content */
+	/* เปลี่ยนการแสดงผลรูปของ content */
+	body {
+		background-image: url("../พระราชกรณีกิจด้านการศึกษา/โทรศัพท์/mobileหน้าหลัก/พื้นหลัง.png");
+	}
+	.king_img {
+  		content: url("../พระราชกรณีกิจด้านการศึกษา/โทรศัพท์/mobileหน้าหลัก/ในหลวง.png");
+  		width: 75%;
+  		margin-left: 10.5%;
+  		margin-top: -3.25%;
+	}
+
+	/* เปลี่ยนตำแหน่งของรูปภาพ */
+	.topic_img {
+		width: 50%;
+		padding-top: 83%;
+		padding-left: 49%;
+	}
+
+	/* แสดงผลของรูป */
+	.box_img2 {
+		display: block;
+		position: absolute;
+		width: 5%;
+		margin-top: 20%;
+	}
+
+	/* ปิดการแสดงผลของเมนู */
+	.bottom_menu {
+		display: none;
+	}
+
+	/*------------------------------------------- */
+	/* ส่วนของ footer */
+	/* เปลี่ยนการแสดงผลตำแหน่งของ footer */
+	footer {
+		width: 100%;
+		margin-left: -1%;
+		margin-top: 110%;
+		font-size: 1.5vw;
+	}
+	/*------------------------------------------- */
+
+	/*------------------------------------------- */
+	/* ส่วนของการทำ hover  */
+	.sub_menu1:hover {
+		cursor: pointer;
+	}
+	.sub_menu2:hover {
+		cursor: pointer;
+	}
+	.sub_menu3:hover {
+		cursor: pointer;
+	}
+	.sub_menu4:hover {
+		cursor: pointer;
+	}
+}

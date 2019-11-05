@@ -1,0 +1,533 @@
+/* กำหนดภาพพื้นหลัง และ font ของเว็บ */
+body {
+	max-width: 100%;
+	border: 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.05)), url("../พระราชกรณีกิจด้านการศึกษา/จอคอม/1โรงเรียนในพระราชู/พื้นหลัง.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Taviraj', serif;
+	font-size: 10pt;
+	overflow-x: hidden;
+}
+
+/*--------------------------------------------------------*/
+/* การแก้ไขของส่วน Header */
+/* กำหนดความกว้าง และความสูงของ header */
+header {
+	width: 100%;
+	height: 10%;
+}
+
+/* ซ่อนเอาไว้ เพราะใน Desktop ไม่ได้ใช้ */
+.box_img1 {
+	display: none;
+}
+
+/* ซ่อนเอาไว้ เพราะใน Desktop ไม่ได้ใช้ */
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+/* แสดงผลของ menu */
+.menu_size {
+	display: block;
+	position: absolute;
+	width: 12%;
+	margin-left: 18%;
+	margin-top: 2.5%;
+	z-index: 6;
+}
+
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+.book_size {
+	position: absolute;
+	width: 20%;
+	/*height: 20%;*/
+	margin-left: 39%;
+	z-index: 4;
+}
+
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+.visual_img {
+	position: absolute;
+	width: 10%;
+	/*height: 15%;*/
+	margin-left: 70%;
+	z-index: 3;
+}
+
+.back_img {
+	display: none;
+	position: absolute;
+	width: 9%;
+	z-index: 4;
+	margin-left: 19.5%;
+	margin-top: 2.5%;
+}
+
+/* ส่วนของเมนูที่จะแสดงเมื่อกดรูปภาพที่มีคลาสเป็น menu_size */
+.menu_img {
+	display: block;
+	position: absolute;
+	width: 8%;
+	margin-left: 1%;
+	margin-top: -14%;
+}
+/*--------------------------------------------------------*/
+
+/*------------------------------------------- */
+/* ส่วนจัดการแถบเมนู */
+/* แสดงแถบเมนูเมื่อกดเมนู */
+.menu_img {
+	display: block;
+	position: absolute;
+	width: 8%;
+	margin-left: 3%;
+	margin-top: -14%;
+}
+/* จัดการความกว้าง และขนาดของเมนู */
+.sub_menu {
+	display: block;
+	position: absolute;
+	width: 55%;
+	height: 0%; /* ค่าสูงสุดคือ 45% */
+	margin-top: 4%;
+	margin-left: 15.5%;
+	z-index: 3;
+	overflow-y: hidden;
+	transition: 1s all;
+	font-size: 1.5vw;
+}
+/* จัดการข้อความ */
+.sub_menu1 {
+	position: absolute;
+	width: 32%;
+	margin-left: 10%;	
+	margin-top: 11%;
+	z-index: 5;
+}
+.sub_menu2 {
+	position: absolute;
+	width: 30%;
+	margin-left: 10%;
+	margin-top: 17%;
+	z-index: 4;
+}
+.sub_menu3 {
+	position: absolute;
+	width: 45%;
+	margin-left: 10%;
+	margin-top: 23.5%;
+	z-index: 3;
+}
+.sub_menu4 {
+	position: absolute;
+	width: 55%;
+	margin-left: 10%;
+	margin-top: 31%;
+	z-index: 2;
+}
+
+/*--------------------------------------------------------*/
+/* ส่วนของการปรับแก้ไขด้วย CSS ของเนื้อหาของเว็บ */
+/* แก้ไขความกว้าง และสูงของส่วนของเนื้อหา */
+.main_content {
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	margin-top: 0%;
+	transition: 1s all;
+}
+
+/* ปรับขนาดของรูปภาพตามสัดส่วนของ content */
+.box_img2 {
+	display: none;
+}
+.king_img {
+	position: absolute;
+	width: 35%;
+	margin-left: 18%;
+	margin-top: 20%;
+}
+.topic_img {
+	position: absolute;
+	width: 35%;
+	margin-top: 15%;
+	margin-left: 18%;
+}
+.frame_img {
+	position: absolute;
+	width: 15%;
+	margin-top: 12%;
+	margin-left: 75%;
+}
+.arrow_img {
+	position: absolute;
+	width: 3%;
+	margin-top: 15%;
+	margin-left: 80.5%;
+}
+.alpha1_img {
+	position: absolute;
+	width: 7%;
+	margin-top: 36%;
+	margin-left: 55%; 
+}
+.alpha2_img {
+	position: absolute;
+	width: 5%;
+	margin-top: 36%;
+	margin-left: 81%; 
+}
+.alpha3_img {
+	position: absolute;
+	width: 15%;
+	margin-top: 61%;
+	margin-left: 21%; 
+}
+.alpha4_img {
+	position: absolute;
+	width: 7%;
+	margin-top: 64%;
+	margin-left: 30%; 
+}
+.alpha5_img {
+	position: absolute;
+	width: 7%;
+	margin-top: 71%;
+	margin-left: 79%;
+}
+.alpha6_img {
+	position: absolute;
+	width: 6%;
+	margin-top: 75%;
+	margin-left: 85%;
+}
+.alpha7_img {
+	position: absolute;
+	width: 8%;
+	margin-top: 72%;
+	margin-left: 14.5%;
+}
+.alpha8_img {
+	position: absolute;
+	width: 8%;
+	margin-top: 119.25%;
+	margin-left: 74%;
+	z-index: 1;
+}
+.alpha9_img {
+	position: absolute;
+	width: 8%;
+	margin-top: 123.25%;
+	margin-left: 17.5%;
+}
+.alpha10_img {
+	position: absolute;
+	width: 13%;
+	margin-top: 64%;
+	margin-left: 48%;
+}
+.pink_box {
+	position: absolute;
+	width: 9%;
+	margin-top: 124.5%;
+	margin-left: 72%;
+}
+.box_img3 {
+	position: absolute;
+	width: 2.5%;
+	margin-top: 76%;
+	margin-left: 15%;
+}
+
+/* แก้ไขในส่วนของ text ในเนื้อหา */
+p img {
+	height: 1em;
+	width: auto;
+}
+
+.text1 {
+	position: absolute;
+	width: 60%;
+	margin-top: 43%;
+	margin-left: 19.5%;
+	font-size: 1.25vw;
+}
+
+.text2 {
+	position: absolute;
+	width: 60%;
+	margin-top: 73%;
+	margin-left: 30%;
+	font-size: 1.25vw;
+}
+
+
+
+/* ------------------------------------ */
+/* ส่วนของ footer */
+/* กำหนดขนาด และนาดอักษรให้ footer */
+footer {
+	position: absolute;
+	width: 63.7%;
+	font-size: 0.75vw;
+	margin-top: 128%;
+	margin-left: 17.45%;
+	text-align: center;
+	border-top: 1px solid;
+}
+/* ------------------------------------ */ 
+
+/*------------------------------------------- */
+/* ส่วนของการทำ hover  */
+.menu1:hover .topic_img1 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.menu2:hover .topic_img2 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.menu3:hover .topic_img3 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.menu4:hover .topic_img4 {
+	cursor: pointer;
+	opacity: 1;
+	transition: .5s ease;
+}
+.sub_menu1:hover {
+	cursor: pointer;
+}
+.sub_menu2:hover {
+	cursor: pointer;
+}
+.sub_menu3:hover {
+	cursor: pointer;
+}
+.sub_menu4:hover {
+	cursor: pointer;
+}
+.menu_size {
+	cursor: pointer;
+}
+.book_size {
+	cursor: pointer;
+}
+.visual_img {
+	cursor: pointer;	
+}
+/* ------------------------------------ */
+/* แก้ไขความเพี้ยนของ footer ใน responsive ความกว้างที่ต่ำกว่า 768 */
+@media only screen and (max-width: 768px) {
+	footer {
+		margin-left: 17%;
+	}
+}
+/* ------------------------------------ */ 
+
+/* ------------------------------------ */ 
+/* ทำ Responsive ให้โทรศัพท์ที่ความกว้างต่ำกว่า 600 */
+@media only screen and (max-width: 600px) {
+	/*------------------------------------------- */
+	/* ส่วนของ header */
+	/* แสดงผลของกล่องบน header */
+	.box_img1 {
+		display: block;
+		width: 100%;
+		margin-top: -1%;
+	}
+
+	/* แสดงผลของ menu */
+	.menu_size {
+		display: block;
+		position: absolute;
+		width: 20%;
+		margin-left: 2%;
+		margin-top: 3%;
+		z-index: 6;
+	}
+
+	.book_size {
+		width: 33%;
+		margin-left: 32.5%;
+	}
+
+	.visual_img {
+		width: 14%;
+		margin-top: -2%;
+		margin-left: 83%;
+	}
+
+	/*------------------------------------------- */
+	/* ส่วนจัดการแถบเมนู */
+	/* แสดงแถบเมนูเมื่อกดเมนู */
+	.menu_img {
+		display: block;
+		position: absolute;
+		width: 8%;
+		margin-left: 1%;
+		margin-top: -14%;
+	}
+	/* จัดการความกว้าง และขนาดของเมนู */
+	.sub_menu {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 0%; /* ค่าสูงสุดคือ 45% */
+		margin-top: 5%;
+		margin-left: 0%;
+		z-index: 3;
+		overflow-y: hidden;
+		overflow-x: visible;
+		transition: 1s all;
+		font-size: 2vw;
+	}
+	/* จัดการข้อความ */
+	.sub_menu1 {
+		position: absolute;
+		width: 25%;
+		margin-left: 10%;
+		margin-top: 11%;
+		z-index: 5;
+	}
+	.sub_menu2 {
+		position: absolute;
+		width: 25%;
+		margin-left: 10%;
+		margin-top: 17%;
+		z-index: 4;
+	}
+	.sub_menu3 {
+		position: absolute;
+		width: 35%;
+		margin-left: 10%;
+		margin-top: 23.5%;
+		z-index: 3;
+	}
+	.sub_menu4 {
+		position: absolute;
+		width: 45%;
+		margin-left: 10%;
+		margin-top: 31%;
+		z-index: 2;
+	}
+	/*------------------------------------------- */
+
+	/*------------------------------------------- */
+	/* ส่วนของ content */
+	/* เปลี่ยนการแสดงผลรูปของ content */
+	.main_content {
+		padding-top: 10.5%;
+	}
+	.topic_img {
+		width: 50%;
+		margin-left: 8%;
+	}
+	.king_img {
+		width: 60%;
+		margin-left: 8%;
+		margin-top: 21%;
+	}
+	.box_img2 {
+		display: block;
+		position: absolute;
+		width: 4%;
+		margin-top: 32%;
+	}
+	.box_img3 {
+		display: none;
+	}
+	.alpha3_img {
+		width: 29%;
+		margin-top: 96%;
+		margin-left: 5%;
+	}
+	.alpha4_img {
+		width: 12%;
+		margin-top: 103%;
+		margin-left: 24%;		
+	}
+	.frame_img {
+		width: 19%;
+		margin-top: 83%;
+	}
+	.arrow_img {
+		width: 4%;
+		margin-top: 86%;
+		margin-left: 81.5%;
+	}
+	.alpha1_img {
+		position: absolute;
+		width: 8%;
+		margin-top: 75%;
+		margin-left: 0%;
+		z-index: 1;
+	}
+	.alpha2_img {
+		position: absolute;
+		width: 7%;
+		margin-top: 114%;
+		margin-left: 82%; 
+	}
+	.alpha5_img {
+		display: none;
+	}
+	.alpha6_img {
+		display: none;
+	}
+	.alpha7_img {
+		position: absolute;
+		width: 13%;
+		margin-top: 160%;
+		margin-left: 0%;
+	}
+	.alpha8_img {
+		position: absolute;
+		width: 11%;
+		margin-top: 218.25%;
+		margin-left: 87%;
+		z-index: 1;
+	}
+	.alpha9_img {
+		position: absolute;
+		width: 12%;
+		margin-top: 221.5%;
+		margin-left: 0%;
+	}
+	.alpha10_img {
+		position: absolute;
+		width: 20%;
+		margin-top: 105%;
+		margin-left: 50%;
+	}
+	.pink_box {
+		position: absolute;
+		width: 10%;
+		margin-top: 225%;
+		margin-left: 85%;
+	}
+	.text1 {
+		width: 80%;
+		margin-top: 61%;
+		margin-left: 9%;
+		font-size: 2.5vw;
+	}
+	.text2 {
+		width: 67%;
+		margin-top: 117%;
+		margin-left: 16%;
+		font-size: 2.5vw;		
+	}
+
+	/* แก้ไข footer */
+	footer {
+		width: 100%;
+		margin-left: -1%;
+		margin-top: 228.75%;
+		font-size: 1.75vw;
+	}
+}
