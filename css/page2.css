@@ -4,7 +4,7 @@ body {
 	border: 0;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.05)), url("../พระราชกรณีกิจด้านการศึกษา/จอคอม/1โรงเรียนในพระราชู/พื้นหลัง.png");
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 	font-family: 'Taviraj', serif;
 	font-size: 10pt;
@@ -30,9 +30,9 @@ header {
 .menu_size {
 	display: block;
 	position: absolute;
-	width: 5%;
+	width: 4%;
 	margin-left: 18%;
-	margin-top: 2.5%;
+	margin-top: 3.5%;
 	z-index: 6;
 }
 
@@ -332,6 +332,9 @@ footer {
 /* ------------------------------------ */ 
 /* ทำ Responsive ให้โทรศัพท์ที่ความกว้างต่ำกว่า 600 */
 @media only screen and (max-width: 600px) {
+	body {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.025), rgba(0, 0, 0, 0.05)), url("../พระราชกรณีกิจด้านการศึกษา/โทรศัพท์/mobileหน้าหลัก/พื้นหลัง.png");
+	}
 	/*------------------------------------------- */
 	/* ส่วนของ header */
 	/* แสดงผลของกล่องบน header */
@@ -526,7 +529,7 @@ footer {
 	/* แก้ไข footer */
 	footer {
 		width: 100%;
-		margin-left: 0%;
+		margin-left: -2%;
 		margin-top: 228.75%;
 		font-size: 1.75vw;
 	}

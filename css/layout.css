@@ -332,7 +332,7 @@ footer {
 	/* เปลี่ยนการแสดงผลตำแหน่งของ footer */
 	footer {
 		width: 100%;
-		margin-left: 0%;
+		margin-left: -1%;
 		margin-top: 110%;
 		font-size: 1.5vw;
 	}
