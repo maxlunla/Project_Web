@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- ตั้งค่า viewport ให้เป็นความกว้างของ device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>พระราชกรณียกิจด้านการศึกษา</title>
+	<!-- ลิ้งค์ font จาก google font และลิ้งค์ไฟล์ CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Taviraj&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css\index_layout.css">
+</head>
+<body>
+	<!------------------------------------------------------------------->
+	<!-- ส่วนของแถบเมนู -->
+	<header>
+		<img class="box_img1" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/สี่เหลี่ยมแนวนอน.png">
+		<img class="visual_img" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/หมวกวนลูป.png" onclick="location.href='index.html'">
+	</header>
+
+	<!-- ส่วนของกล่องบน และด้านข้าง -->
+	<img class="book_size" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/ปุ่มปิด.png" onclick="location.href='home.html'">
+	<img class="box_img2" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/สี่เหลี่ยมแนวตั้ง.png">
+	<div class="black_box"></div>
+
+	<!-- ส่วนของเนื้อหา -->
+	<img class="image1" id="image1" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/0/1.png" onclick="content1()">
+	<img class="image2" id="image2" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/0/2-1.png" onclick="content2()">
+	<img class="image3" id="image3" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/0/3.png" onclick="content2()">
+	<img class="image4" id="image4" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/0/1.png" onclick="content3()">
+
+
+
+
+	<img class="image5" id="image5" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/0/4.png">
+
+
+
+
+
+	<img class="alpha1" id="alpha1" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/0/6.png">
+	<img class="alpha2" id="alpha2" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/0/6.png">
+
+
+
+	<script>
+		function content1() {
+			document.getElementById("image1").style.display = "none";
+			document.getElementById("alpha1").style.display = "none";
+			document.getElementById("image2").style.display = "block";
+			setTimeout(function(){ document.getElementById("image3").style.display = "block"; }, 500);
+		}
+
+		function content2() {
+			document.getElementById("image4").style.display = "block";
+			document.getElementById("alpha2").style.display = "block";
+			document.getElementById("image2").style.display = "none";
+			document.getElementById("image3").style.display = "none";
+		}
+
+		function content3() {
+			document.getElementById("image4").style.display = "none";
+			document.getElementById("alpha2").style.display = "none";
+		}
+	</script>
+</body>
+</html>
