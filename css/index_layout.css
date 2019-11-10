@@ -7,6 +7,7 @@ body {
 	font-family: 'Taviraj', serif;
 	font-size: 10pt;
 	overflow-y: hidden;
+	overflow-x: hidden;
 }
 
 /*--------------------------------------------------------*/
@@ -195,9 +196,6 @@ header {
 	margin-top: 7%
 }
 
-
-
-
 .image14 {
 	display: none;
 	position: absolute;
@@ -221,7 +219,6 @@ header {
 	margin-left: 40%;
 	margin-top: 7%
 }
-
 
 .image17 {
 	display: none;
@@ -247,9 +244,6 @@ header {
 	margin-top: 7%
 }
 
-
-
-
 .alpha4 {
 	display: none;
 	position: absolute;
@@ -264,4 +258,62 @@ header {
 	width: 6%;
 	margin-left: 78%;
 	margin-top: 40%;
+}
+
+/* --------------------- เนื้อหาชุดสี่ --------------------- */
+
+.image20 {
+	display: none;
+	position: absolute;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 2.5%
+}
+
+.image21 {
+	display: none;
+	position: absolute;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 2.5%;
+}
+
+.image22 {
+	display: none;
+	position: absolute;
+	width: 50%;
+	margin-left: 20%;
+	margin-top: 24%;
+}
+
+.image23 {
+	display: none;
+	position: absolute;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 2.5%
+}
+
+.image24 {
+	display: none;
+	position: absolute;
+	width: 40%;
+	margin-left: 20%;
+	margin-top: 2.5%
+}
+
+.alpha6 {
+	display: none;
+	position: absolute;
+	width: 25%;
+	margin-left: 75%;
+	margin-top: 20%;
+}
+
+.alpha7 {
+	display: none;
+	position: absolute;
+	width: 10%;
+	margin-left: 17%;
+	margin-top: 47%;
 }

@@ -56,6 +56,22 @@
 
 	<img class="alpha4" id="alpha4" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/2/ลูกศ1.png">
 	<img class="alpha5" id="alpha5" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/2/ลูกศร2.png">
+
+	<!-- ส่วนของเนื้อหาในทุนที่สี่ -->
+	<img class="image20" id="image20" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/3/1.png" onclick="content12()">
+	<img class="image21" id="image21" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/3/2.png">
+	<img class="image22" id="image22" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/3/5.png" onclick="content13()">
+	<img class="image23" id="image23" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/3/1.png" onclick="content13()">
+	<img class="image24" id="image24" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/3/1.png" onclick="content14()">
+
+	<img class="alpha6" id="alpha6" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/3/3.png">
+	<img class="alpha7" id="alpha7" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/3/4.png">
+
+
+
+
+
+
 	<script>
 
 		// ฟังก์ชันสำหรับทุนที่หนึ่ง
@@ -143,7 +159,28 @@
 			document.getElementById("image19").style.display = "none";
 			document.getElementById("alpha4").style.display = "none";
 			document.getElementById("alpha5").style.display = "none";
+			document.getElementById("image20").style.display = "block";
+			document.getElementById("alpha6").style.display = "block";
+			document.getElementById("alpha7").style.display = "block";
 		}
+
+		function content12() {
+			document.getElementById("image20").style.display = "none";
+			document.getElementById("image21").style.display = "block";
+			document.getElementById("image22").style.display = "block";
+			setTimeout(function(){ document.getElementById("image21").style.display = "none"; }, 250);
+			setTimeout(function(){ document.getElementById("image23").style.display = "block"; }, 300);
+		}
+
+		function content13() {
+			document.getElementById("image22").style.display = "none";
+			document.getElementById("image21").style.display = "block";
+			setTimeout(function(){ document.getElementById("image21").style.display = "none"; }, 250);
+			setTimeout(function(){ document.getElementById("image24").style.display = "block"; }, 300);
+		}
+
+		// ฟังก์ชันสำหรับทุนที่ห้า
+
 
 	</script>
 </body>
