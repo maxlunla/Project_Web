@@ -675,3 +675,15 @@ header {
 	margin-top: -11.25%;
 	margin-left: -5%;
 }
+
+
+/* ------------------------------------ */ 
+/* ทำ Responsive ให้โทรศัพท์ที่ความกว้างต่ำกว่า 600 */
+@media only screen and (max-width: 600px) {
+	body {
+		background-size: cover;
+		background-repeat: repeat;
+		background-attachment: fixed;
+	}
+
+}
