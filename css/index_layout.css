@@ -685,5 +685,89 @@ header {
 		background-repeat: repeat;
 		background-attachment: fixed;
 	}
+	/* ซ่อนเอาไว้ เพราะใน Desktop ไม่ได้ใช้ */
+	.box_img1 {
+		position: absolute;
+		width: 90%;
+		margin-left: 3.5%;
+		margin-top: -1%;
+	}
 
+	.box_img2 {
+		width: 4.5%;
+		margin-left: -1%;
+		margin-top: 22%;
+	}
+
+	.black_box {
+		width: 4%;
+		height: 5%;
+		margin-left: -0.75%;
+		margin-top: 22.1%;
+	}
+
+	/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+	.book_size {
+		width: 7%;
+		/*height: 20%;*/
+		margin-left: 4%;
+		margin-top: 87%;
+	}
+
+	/* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
+	.visual_img {
+		width: 15%;
+		margin-left: 82%;
+		margin-top: 3%;
+	}
+
+/* --------------------- เนื้อหาชุดแรก --------------------- */
+	.image1 {
+		width: 95%;
+		margin-left: 3%;
+		margin-top: 4%;
+	}
+
+	.image2 {
+		width: 19.5%;
+		margin-left: 75%;
+		margin-top: 22.5%;
+	}
+
+	.image3 {
+		width: 68%;
+		margin-left: 6%;
+		margin-top: 21.5%;
+	}
+
+	.image4 {
+		width: 95%;
+		margin-left: 3%;
+		margin-top: 4%;
+	}
+
+	.image5 {
+		width: 30%;
+		margin-top: 54%;
+	}
+
+	.image6 {
+		width: 75%;
+		margin-left: 5%;
+		margin-top: 13%;
+		z-index: 2;
+	}
+
+	.image7 {
+		width: 30%;
+		margin-top: 54%;
+	}
+
+	.alpha1 {
+		visibility: hidden;
+	}
+
+	.alpha2 {
+		visibility: hidden;
+	}
 }
