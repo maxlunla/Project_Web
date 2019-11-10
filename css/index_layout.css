@@ -62,7 +62,7 @@ header {
 	margin-top: 3.1%;
 }
 
-/* ------------------------------------------ */
+/* --------------------- เนื้อหาชุดแรก --------------------- */
 .image1 {
 	display: block;
 	position: absolute;
@@ -111,6 +111,13 @@ header {
 	margin-top: 7%;
 }
 
+.image7 {
+	display: none;
+	position: absolute;
+	width: 20%;
+	margin-left: 63%;
+	margin-top: 18%;
+}
 
 .alpha1 {
 	display: block;
@@ -126,4 +133,135 @@ header {
 	width: 10%;
 	margin-left: 64%;
 	margin-top: 44.5%;
+}
+
+/* --------------------- เนื้อหาชุดสอง --------------------- */
+
+.image8 {
+	display: none;
+	position: absolute;
+	width: 53%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.image9 {
+	display: none;
+	position: absolute;
+	width: 53%;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+.image10 {
+	display: none;
+	position: absolute;
+	width: 53%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.alpha3 {
+	display: none;
+	position: absolute;
+	width: 10%;
+	margin-left: -1%;
+	margin-top: -1%;
+}
+
+/* --------------------- เนื้อหาชุดสาม --------------------- */
+
+.image11 {
+	display: none;
+	position: absolute;
+	width: 20%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.image12 {
+	display: none;
+	position: absolute;
+	width: 35%;
+	margin-left: 40%;
+	margin-top: 26%;
+}
+
+.image13 {
+	display: none;
+	position: absolute;
+	width: 30%;
+	margin-left: 40%;
+	margin-top: 7%
+}
+
+
+
+
+.image14 {
+	display: none;
+	position: absolute;
+	width: 23%;
+	margin-left: 15%;
+	margin-top: 5%
+}
+
+.image15 {
+	display: none;
+	position: absolute;
+	width: 38%;
+	margin-left: 40%;
+	margin-top: 26%
+}
+
+.image16 {
+	display: none;
+	position: absolute;
+	width: 30%;
+	margin-left: 40%;
+	margin-top: 7%
+}
+
+
+.image17 {
+	display: none;
+	position: absolute;
+	width: 20%;
+	margin-left: 15%;
+	margin-top: 3%;
+}
+
+.image18 {
+	display: none;
+	position: absolute;
+	width: 35%;
+	margin-left: 40%;
+	margin-top: 26%;
+}
+
+.image19 {
+	display: none;
+	position: absolute;
+	width: 30%;
+	margin-left: 40%;
+	margin-top: 7%
+}
+
+
+
+
+.alpha4 {
+	display: none;
+	position: absolute;
+	width: 6%;
+	margin-left: 10%;
+	margin-top: 20%;
+}
+
+.alpha5 {
+	display: none;
+	position: absolute;
+	width: 6%;
+	margin-left: 78%;
+	margin-top: 40%;
 }
