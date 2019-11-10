@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- ตั้งค่า viewport ให้เป็นความกว้างของ device -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>พระราชกรณียกิจด้านการศึกษา</title>
+	<!-- ลิ้งค์ font จาก google font และลิ้งค์ไฟล์ CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Taviraj&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css\index_layout.css">
+</head>
+<body>
+	<!------------------------------------------------------------------->
+	<!-- ส่วนของแถบเมนู -->
+	<header>
+		<img class="box_img1" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/สี่เหลี่ยมแนวนอน.png">
+		<img class="visual_img" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/หน้าหลัก/หมวกวนลูป.png" onclick="location.href='index.html'">
+	</header>
+
+	<!-- ส่วนของกล่องบน และด้านข้าง -->
+	<img class="book_size" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/ปุ่มปิด.png" onclick="location.href='home.html'">
+	<img class="box_img2" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/สี่เหลี่ยมแนวตั้ง.png">
+	<div class="black_box"></div>
+
+
+
+
+
+	<!-- ส่วนของเนื้อหาในทุนที่เจ็ด -->
+	<img class="image41" id="image41" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/5/2.png">
+	<img class="image42" id="image42" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/2.png" onclick="content21()">
+	<img class="image43" id="image43" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/1.png" onclick="content21()">
+	<img class="image44" id="image44" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/3.png" onclick="content21()">
+	<img class="image45" id="image45" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/3.png" onclick="content21()">
+
+	<img class="image46" id="image46" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/1.png" onclick="content22()">
+
+
+	<img class="alpha8" id="alpha8" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/4.png">
+	<img class="alpha9" id="alpha9" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/5.png">
+	<img class="alpha10" id="alpha10" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/6/6.png">
+
+
+
+
+
+	<script>
+		document.getElementById("image42").style.display = "block"
+		document.getElementById("image43").style.display = "block"
+		document.getElementById("image44").style.display = "block"
+		document.getElementById("image45").style.display = "block"
+
+		function content21() {
+			setTimeout(function(){
+				document.getElementById("image45").style.display = "none"; 
+			}, 500);
+			setTimeout(function(){
+				document.getElementById("image44").style.display = "none"; 
+			}, 1000);
+		}
+	</script>
+</body>
+</html>
