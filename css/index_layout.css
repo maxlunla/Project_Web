@@ -96,11 +96,19 @@ header {
 }
 
 .image5 {
-	display: block;
+	display: none;
 	position: absolute;
-	width: 15%;
-	margin-left: 12%;
-	margin-top: -7%;
+	width: 20%;
+	margin-left: 63%;
+	margin-top: 18%;
+}
+
+.image6 {
+	display: none;
+	position: absolute;
+	width: 45%;
+	margin-left: 15%;
+	margin-top: 7%;
 }
 
 
