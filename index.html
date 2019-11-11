@@ -90,11 +90,35 @@
 	<img class="image40" id="image40" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/5/1.png" onclick="content20()">
 	<img class="image41" id="image41" src="พระราชกรณีกิจด้านการศึกษา/จอคอม/ก่อนหน้าหลักเเละเข้าสู่หน้าหลัก/5/2.png" onclick="content20()">
 
+	<!-- แหล่งเก็บเสียง -->
+
+	<audio id="audio1">
+		<source src="พระราชกรณีกิจด้านการศึกษา/เสียง/1กฮ.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="audio2">
+		<source src="พระราชกรณีกิจด้านการศึกษา/เสียง/2ปรมมือ.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="audio3">
+		<source src="พระราชกรณีกิจด้านการศึกษา/เสียง/3ชัตเตอร์วัง.m4a" type="audio/mpeg">
+	</audio>
+	<audio id="audio4">
+		<source src="พระราชกรณีกิจด้านการศึกษา/เสียง/4เด็กร้อง.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="audio5">
+		<source src="พระราชกรณีกิจด้านการศึกษา/เสียง/5พระราชสำนัก.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="audio6">
+		<source src="พระราชกรณีกิจด้านการศึกษา/เสียง/6ไก่ขัน.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="audio7">
+		<source src="พระราชกรณีกิจด้านการศึกษา/เสียง/7พระราชสำนัก.mp3" type="audio/mpeg">
+	</audio>
 	<script>
 
 		// ฟังก์ชันสำหรับทุนที่หนึ่ง
 
 		function content1() {
+			document.getElementById("audio1").play();
 			document.getElementById("image1").style.display = "none";
 			document.getElementById("alpha1").style.display = "none";
 			document.getElementById("image2").style.display = "block";
@@ -102,7 +126,7 @@
 		}
 
 		function content2() {
-			clearTimeout();
+			document.getElementById("audio1").pause();
 			document.getElementById("image4").style.display = "block";
 			document.getElementById("alpha2").style.display = "block";
 			document.getElementById("image2").style.display = "none";
@@ -116,12 +140,14 @@
 		}
 
 		function content4() {
+			document.getElementById("audio2").play();
 			document.getElementById("image5").style.display = "none";
 			document.getElementById("image6").style.display = "block";
 			document.getElementById("image7").style.display = "block";
 		}
 
 		function content5() {
+			document.getElementById("audio2").pause();
 			document.getElementById("image7").style.display = "none";
 			document.getElementById("image6").style.display = "none";
 			document.getElementById("image8").style.display = "block";
@@ -131,10 +157,14 @@
 		// ฟังก์ชันสำหรับทุนที่สอง
 		function content6() {
 			document.getElementById("image8").style.display = "none";
-			setTimeout(function(){ document.getElementById("image9").style.display = "block"; }, 500);
+			setTimeout(function(){ 
+				document.getElementById("image9").style.display = "block";
+				document.getElementById("audio3").play();
+			}, 500);
 		}
 
 		function content7() {
+			document.getElementById("audio3").pause();
 			document.getElementById("image10").style.display = "block";
 			document.getElementById("image9").style.display = "none";
 		}
@@ -152,6 +182,7 @@
 		// ฟังก์ชันสำหรับทุนที่สาม
 
 		function content9() {
+			document.getElementById("audio4").play();
 			document.getElementById("image11").style.display = "none";
 			document.getElementById("image12").style.display = "none";
 			document.getElementById("image13").style.display = "none";
@@ -161,6 +192,7 @@
 		}
 
 		function content10() {
+			document.getElementById("audio4").pause();
 			document.getElementById("image14").style.display = "none";
 			document.getElementById("image15").style.display = "none";
 			document.getElementById("image16").style.display = "none";
@@ -183,6 +215,7 @@
 		}
 
 		function content12() {
+			document.getElementById("audio5").play();
 			document.getElementById("image20").style.display = "none";
 			document.getElementById("image21").style.display = "block";
 			document.getElementById("image22").style.display = "block";
@@ -191,6 +224,7 @@
 		}
 
 		function content13() {
+			document.getElementById("audio5").pause();
 			document.getElementById("image22").style.display = "none";
 			document.getElementById("image21").style.display = "block";
 			setTimeout(function(){ document.getElementById("image24").style.display = "block"; }, 250);
@@ -210,6 +244,7 @@
 		}
 
 		function content15() {
+			document.getElementById("audio6").play();
 			document.getElementById("image25").style.display = "none";
 			document.getElementById("image26").style.display = "none";
 			document.getElementById("image27").style.display = "none";
@@ -221,6 +256,7 @@
 		}
 
 		function content16() {
+			document.getElementById("audio6").pause();
 			document.getElementById("image28").style.display = "none";
 			document.getElementById("image29").style.display = "none";
 			document.getElementById("image30").style.display = "none";
@@ -248,10 +284,12 @@
 			document.getElementById("image36").style.display = "none";
 			document.getElementById("image37").style.display = "none";
 			document.getElementById("image39").style.display = "block";
+			document.getElementById("audio7").play();
 			setTimeout(function(){ document.getElementById("image38").style.display = "block"; }, 500);
 		}
 
 		function content19() {
+			document.getElementById("audio7").pause();
 			document.getElementById("image38").style.display = "none"
 			document.getElementById("image39").style.display = "none"
 			document.getElementById("image40").style.display = "block";
