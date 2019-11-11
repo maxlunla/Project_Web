@@ -575,7 +575,7 @@ header {
 	margin-top: 4%
 }
 
-/* --------------------- เนื้อหาชุดแปด --------------------- */
+/* --------------------- เนื้อหาชุดเก้า --------------------- */
 
 .image53 {
 	display: none;
@@ -664,7 +664,7 @@ header {
 	display: none;
 	position: absolute;
 	width: 100%;
-	margin-top: -1.5%
+	margin-top: -1.5%;
 	margin-left: 0%;
 }
 
@@ -768,6 +768,411 @@ header {
 	}
 
 	.alpha2 {
+		visibility: hidden;
+	}
+
+	/* --------------------- เนื้อหาชุดสอง --------------------- */
+
+	.image8 {
+		width: 80%;
+		margin-left: 11%;
+		margin-top: 22%;
+	}
+
+	.image9 {
+		width: 85%;
+		margin-left: 8.5%;
+		margin-top: 22%;
+	}
+
+	.image10 {
+		width: 80%;
+		margin-left: 11%;
+		margin-top: 22%;
+	}
+
+	.alpha3 {
+		visibility: hidden;
+	}
+
+	/* --------------------- เนื้อหาชุดสาม --------------------- */
+
+	.image11 {
+		width: 55%;
+		margin-left: 4%;
+		margin-top: 5%;
+	}
+
+	.image12 {
+		width: 60%;
+		margin-left: 38.5%;
+		margin-top: 55%;
+	}
+
+	.image13 {
+		width: 55%;
+		margin-left: 36%;
+		margin-top: 42.5%
+	}
+
+	.image14 {
+		width: 40%;
+		margin-left: 6%;
+		margin-top: 11%;
+	}
+
+	.image15 {
+		width: 65%;
+		margin-left: 33.5%;
+		margin-top: 62%;
+	}
+
+	.image16 {
+		width: 55%;
+		margin-left: 36%;
+		margin-top: 42.5%
+	}
+
+	.image17 {
+		width: 55%;
+		margin-left: 4%;
+		margin-top: 5%;
+	}
+
+	.image18 {
+		width: 60%;
+		margin-left: 38.5%;
+		margin-top: 55%;
+	}
+
+	.image19 {
+		width: 55%;
+		margin-left: 36%;
+		margin-top: 42.5%
+	}
+
+	.alpha4 {
+		width: 13%;
+		margin-left: -1%;
+		margin-top: 43%;
+	}
+
+	.alpha5 {
+		width: 13%;
+		margin-left: 85%;
+		margin-top: 86%;
+	}
+
+
+/* --------------------- เนื้อหาชุดสี่ --------------------- */
+
+	.image20 {
+		width: 65%;
+		margin-left: 4%;
+		margin-top: 17.5%;
+	}
+
+	.image21 {
+		width: 65%;
+		margin-left: 4%;
+		margin-top: 17.5%;
+	}
+
+	.image22 {
+		width: 80%;
+		margin-left: 14%;
+		margin-top: 55%;
+	}
+
+	.image23 {
+		width: 65%;
+		margin-left: 4%;
+		margin-top: 17.5%;
+	}
+
+	.image24 {
+		width: 65%;
+		margin-left: 4%;
+		margin-top: 17.5%;
+	}
+
+	.alpha6 {
+		width: 35%;
+		margin-left: 63.25%;
+		margin-top: 70%;
+	}
+
+	.alpha7 {
+		width: 15%;
+		margin-left: -1%;
+		margin-top: 93%;
+	}
+
+	/* --------------------- เนื้อหาชุดห้า --------------------- */
+
+	.image25 {
+		width: 60%;
+		margin-left: 4%;
+		margin-top: 4%
+	}
+
+	.image26 {
+		width: 60%;
+		margin-left: 8%;
+		margin-top: 8%
+	}
+
+	.image27 {
+		width: 60%;
+		margin-left: 12%;
+		margin-top: 12%
+	}
+
+	.image28 {
+		width: 60%;
+		margin-left: 4%;
+		margin-top: 4%
+	}
+
+	.image29 {
+		width: 60%;
+		margin-left: 8%;
+		margin-top: 8%
+	}
+
+	.image30 {
+		width: 60%;
+		margin-left: 12%;
+		margin-top: 12%
+	}
+
+	.image31 {
+		width: 10%;
+		margin-left: 69%;
+		margin-top: 4%
+	}
+
+	.image32 {
+		width: 85%;
+		margin-left: 7%;
+		margin-top: 55.5%
+	}
+
+	.image33 {
+		width: 60%;
+		margin-left: 4%;
+		margin-top: 4%
+	}
+
+	.image34 {
+		width: 60%;
+		margin-left: 8%;
+		margin-top: 8%
+	}
+
+	.image35 {
+		width: 60%;
+		margin-left: 12%;
+		margin-top: 12%
+	}
+
+	/* --------------------- เนื้อหาชุดหก --------------------- */
+	.image36 {
+		visibility: hidden;
+	}
+
+	.image37 {
+		width: 60%;
+		margin-left: 20%;
+		margin-top: 17%
+	}
+
+	.image38 {
+		width: 80%;
+		margin-left: 15%;
+		margin-top: 21%
+	}
+
+	.image39 {
+		visibility: hidden;
+	}
+
+	.image40 {
+		visibility: hidden;
+	}
+
+	.image41 {
+		width: 60%;
+		margin-left: 20%;
+		margin-top: 17%
+	}
+
+	/* --------------------- เนื้อหาชุดเจ็ด --------------------- */
+	.image42 {
+		visibility: hidden;
+	}
+
+	.image43 {
+		width: 60%;
+		margin-left: 18%;
+		margin-top: 8%
+	}
+
+	.image44 {
+		width: 55%;
+		margin-left: 5%;
+		margin-top: 22%
+	}
+
+	.image45 {
+		width: 55%;
+		margin-left: 30%;
+		margin-top: 22%
+	}
+
+	.image46 {
+		width: 55%;
+		margin-left: 5%;
+		margin-top: 22%
+	}
+
+	.image47 {
+		width: 55%;
+		margin-left: 30%;
+		margin-top: 22%
+	}
+
+	.image48 {
+		width: 60%;
+		margin-left: 18%;
+		margin-top: 8%
+	}
+
+	.image49 {
+		width: 60%;
+		margin-left: 18%;
+		margin-top: 8%
+	}
+
+	.alpha8 {
+		width: 15%;
+		margin-left: -11%;
+		margin-top: 76%;
+	}
+
+	.alpha9 {
+		width: 15%;
+		margin-left: 45%;
+		margin-top: 89%;
+	}
+
+	.alpha10 {
+		width: 35%;
+		margin-left: 65%;
+		margin-top: 67%;
+	}
+
+
+	/* --------------------- เนื้อหาชุดแปด --------------------- */
+	.image50 {
+		width: 50%;
+		margin-left: 0%;
+		margin-top: 18%
+	}
+
+	.image51 {
+		width: 47%;
+		margin-left: 50%;
+		margin-top: 18%
+	}
+
+	.image52 {
+		width: 85%;
+		margin-left: 12%;
+		margin-top: 7%
+	}
+
+	/* --------------------- เนื้อหาชุดเก้า --------------------- */
+
+	.image53 {
+		width: 60%;
+		margin-left: 5%;
+		margin-top: 22%
+	}
+
+	.image54 {
+		width: 60%;
+		margin-left: 30%;
+		margin-top: 22%
+	}
+
+	.image55 {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 22%
+	}
+
+	.image56 {
+		width: 60%;
+		margin-left: 38.5%;
+		margin-top: 22%
+	}
+
+	/* --------------------- เนื้อหาชุดสิบ --------------------- */
+
+	.image57 {
+		width: 95%;
+		margin-left: 3%;
+		margin-top: 21%
+	}
+
+	.image58 {
+		width: 75%;
+		margin-left: 14%;
+		margin-top: 22%
+		z-index: 2;
+	}
+
+	.image59 {
+		width: 75%;
+		margin-left: 14%;
+		margin-top: 32%
+		z-index: 2;
+	}
+
+	.image60 {
+		width: 75%;
+		margin-left: 14%;
+		margin-top: 45%
+		z-index: 2;
+	}
+
+	.alpha11 {
+		display: none;
+		position: absolute;
+		width: 13%;
+		margin-left: 65%;
+		margin-top: 76%
+	}
+
+	.alpha12 {
+		display: none;
+		position: absolute;
+		width: 13%;
+		margin-left: 24%;
+		margin-top: 84%
+	}
+
+
+	.image61 {
+		display: none;
+		position: absolute;
+		width: 156%;
+		margin-top: 5.5%;
+		margin-left: -28%;
+	}
+
+	.image62 {
 		visibility: hidden;
 	}
 }
