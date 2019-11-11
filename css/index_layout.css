@@ -674,6 +674,7 @@ header {
 	width: 110%;
 	margin-top: -11.25%;
 	margin-left: -5%;
+	visibility: hidden;
 }
 
 
@@ -1068,7 +1069,7 @@ header {
 
 	.alpha10 {
 		width: 35%;
-		margin-left: 65%;
+		margin-left: 63.5%;
 		margin-top: 67%;
 	}
 
