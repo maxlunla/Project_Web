@@ -104,7 +104,7 @@ p img {
 
 /* กำหนดความกว้างของ div ที่เก็บ tag <p> */
 .menu1 {
-	width: 55%;
+	width: 65%;
 }
 .menu2 {
 	width: 55%;
@@ -121,9 +121,9 @@ p img {
 	position: absolute;
 	opacity: 0;
 	height: 10%;
-	width: 35%;
+	width: 43%;
 	margin-top: -3.5%;
-	margin-left: -27%;
+	margin-left: -33%;
 
 }
 .topic_img2 {
@@ -324,7 +324,11 @@ footer {
 
 	/* ปิดการแสดงผลของเมนู */
 	.bottom_menu {
-		display: none;
+		padding-left: 0%;
+		padding-top: 0%;
+		font-size: 2.5vw;
+		margin-left: 10%;
+		margin-top: 88%;
 	}
 
 	/*------------------------------------------- */
@@ -333,7 +337,7 @@ footer {
 	footer {
 		width: 100%;
 		margin-left: -1%;
-		margin-top: 110%;
+		margin-top: 120%;
 		font-size: 1.5vw;
 	}
 	/*------------------------------------------- */
@@ -351,5 +355,21 @@ footer {
 	}
 	.sub_menu4:hover {
 		cursor: pointer;
+	}
+	/* กำหนดขนาด และตำแหน่งของรูปที่ใช้เป็น hover ของ menu1 ถึง menu4 */
+	.topic_img1 {
+		display: none;
+
+	}
+	.topic_img2 {
+		display: none;
+
+	}
+	.topic_img3 {
+		display: none;
+
+	}
+	.topic_img4 {
+		display: none;
 	}
 }
