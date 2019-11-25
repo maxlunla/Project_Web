@@ -223,8 +223,8 @@ footer {
 	.menu_size {
 		display: block;
 		position: absolute;
-		width: 7%;
-		margin-left: 6%;
+		width: 25%;
+		margin-left: 4%;
 		margin-top: 4%;
 		z-index: 6;
 	}
@@ -236,7 +236,7 @@ footer {
 
 	.visual_img {
 		width: 14%;
-		margin-top: -2%;
+		margin-top: 0%;
 		margin-left: 83%;
 	}
 
@@ -261,35 +261,35 @@ footer {
 		overflow-y: hidden;
 		overflow-x: visible;
 		transition: 1s all;
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 	/* จัดการข้อความ */
 	.sub_menu1 {
 		position: absolute;
-		width: 25%;
+		width: 38%;
 		padding-left: 10%;
 		padding-top: 11%;
 		z-index: 5;
 	}
 	.sub_menu2 {
 		position: absolute;
-		width: 25%;
+		width: 35%;
 		padding-left: 10%;
-		padding-top: 17%;
+		padding-top: 19%;
 		z-index: 4;
 	}
 	.sub_menu3 {
 		position: absolute;
-		width: 35%;
+		width: 50%;
 		padding-left: 10%;
-		padding-top: 23.5%;
+		padding-top: 26.5%;
 		z-index: 3;
 	}
 	.sub_menu4 {
 		position: absolute;
-		width: 45%;
+		width: 60%;
 		padding-left: 10%;
-		padding-top: 31%;
+		padding-top: 35%;
 		z-index: 2;
 	}
 	/*------------------------------------------- */
@@ -326,9 +326,9 @@ footer {
 	.bottom_menu {
 		padding-left: 0%;
 		padding-top: 0%;
-		font-size: 2.5vw;
+		font-size: 3.5vw;
 		margin-left: 10%;
-		margin-top: 88%;
+		margin-top: 95%;
 	}
 
 	/*------------------------------------------- */
@@ -337,7 +337,7 @@ footer {
 	footer {
 		width: 100%;
 		margin-left: -1%;
-		margin-top: 120%;
+		margin-top: 138%;
 		font-size: 1.5vw;
 	}
 	/*------------------------------------------- */

@@ -30,9 +30,9 @@ header {
 .menu_size {
 	display: block;
 	position: absolute;
-	width: 4%;
+	width: 13%;
 	margin-left: 18%;
-	margin-top: 2.5%;
+	margin-top: 3.5%;
 	z-index: 6;
 }
 
@@ -347,6 +347,21 @@ footer {
 .visual_img {
 	cursor: pointer;	
 }
+
+.scroll-down {
+  position: fixed;
+  bottom: 30px;
+  left: 93%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 8%;
+  transform: rotate(90deg);
+}
+
+.scroll-down {
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
 /* ------------------------------------ */
 /* แก้ไขความเพี้ยนของ footer ใน responsive ความกว้างที่ต่ำกว่า 768 */
 @media only screen and (max-width: 768px) {
@@ -375,8 +390,8 @@ footer {
 	.menu_size {
 		display: block;
 		position: absolute;
-		width: 7%;
-		margin-left: 6%;
+		width: 25%;
+		margin-left: 2%;
 		margin-top: 4%;
 		z-index: 6;
 	}
@@ -388,7 +403,7 @@ footer {
 
 	.visual_img {
 		width: 14%;
-		margin-top: -2%;
+		margin-top: 0%;
 		margin-left: 83%;
 	}
 
@@ -414,35 +429,35 @@ footer {
 		overflow-y: hidden;
 		overflow-x: visible;
 		transition: 1s all;
-		font-size: 2vw;
+		font-size: 3vw;
 	}
 	/* จัดการข้อความ */
 	.sub_menu1 {
 		position: absolute;
-		width: 25%;
+		width: 38%;
 		margin-left: 10%;
 		margin-top: 11%;
 		z-index: 5;
 	}
 	.sub_menu2 {
 		position: absolute;
-		width: 25%;
+		width: 35%;
 		margin-left: 10%;
-		margin-top: 17%;
+		margin-top: 19%;
 		z-index: 4;
 	}
 	.sub_menu3 {
 		position: absolute;
-		width: 35%;
+		width: 50%;
 		margin-left: 10%;
-		margin-top: 23.5%;
+		margin-top: 26.5%;
 		z-index: 3;
 	}
 	.sub_menu4 {
 		position: absolute;
-		width: 45%;
+		width: 60%;
 		margin-left: 10%;
-		margin-top: 31%;
+		margin-top: 35%;
 		z-index: 2;
 	}
 	/*------------------------------------------- */

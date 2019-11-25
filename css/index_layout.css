@@ -44,8 +44,12 @@ header {
 	width: 8%;
 	/*height: 15%;*/
 	margin-left: 85%;
-	margin-top: -1%;
+	margin-top: 0%;
 	z-index: 3;
+}
+
+.visual_img:hover {
+	cursor: pointer;
 }
 
 /* ซ่อนภาพไว้จากการไม่ได้ใช้ */
@@ -90,6 +94,10 @@ header {
 	margin-top: 6.5%;
 }
 
+.image3:hover {
+	cursor: pointer;
+}
+
 .image4 {
 	display: none;
 	position: absolute;
@@ -112,6 +120,10 @@ header {
 	width: 45%;
 	margin-left: 15%;
 	margin-top: 7%;
+}
+
+.image6:hover {
+	cursor: pointer;
 }
 
 .image7 {
@@ -154,6 +166,10 @@ header {
 	width: 53%;
 	margin-left: 15%;
 	margin-top: 10%;
+}
+
+.image9:hover {
+	cursor: pointer;
 }
 
 .image10 {
@@ -206,12 +222,20 @@ header {
 	margin-top: 5%
 }
 
+.image14:hover {
+	cursor: pointer;
+}
+
 .image15 {
 	display: none;
 	position: absolute;
 	width: 38%;
 	margin-left: 40%;
 	margin-top: 26%
+}
+
+.image15:hover {
+	cursor: pointer;
 }
 
 .image16 {
@@ -287,6 +311,10 @@ header {
 	width: 50%;
 	margin-left: 20%;
 	margin-top: 24%;
+}
+
+.image22:hover {
+	cursor: pointer;
 }
 
 .image23 {
@@ -387,6 +415,10 @@ header {
 	margin-top: 31.5%
 }
 
+.image32:hover {
+	cursor: pointer;
+}
+
 .image33 {
 	display: none;
 	position: absolute;
@@ -434,6 +466,10 @@ header {
 	width: 50%;
 	margin-left: 19%;
 	margin-top: 20%
+}
+
+.image38:hover {
+	cursor: pointer;
 }
 
 .image39 {
@@ -517,6 +553,10 @@ header {
 	margin-top: 3%
 }
 
+.image48:hover {
+	cursor: pointer;
+}
+
 .image49 {
 	display: none;
 	position: absolute;
@@ -575,6 +615,10 @@ header {
 	margin-top: 4%
 }
 
+.image52:hover {
+	cursor: pointer;
+}
+
 /* --------------------- เนื้อหาชุดเก้า --------------------- */
 
 .image53 {
@@ -601,6 +645,10 @@ header {
 	margin-top: 17%
 }
 
+.image55:hover {
+	cursor: pointer;
+}
+
 .image56 {
 	display: none;
 	position: absolute;
@@ -617,6 +665,10 @@ header {
 	width: 60%;
 	margin-left: 15%;
 	margin-top: 4%
+}
+
+.image57:hover {
+	cursor: pointer;
 }
 
 .image58 {
@@ -685,6 +737,7 @@ header {
 		background-size: cover;
 		background-repeat: repeat;
 		background-attachment: fixed;
+		margin-top: 30%;
 	}
 	/* ซ่อนเอาไว้ เพราะใน Desktop ไม่ได้ใช้ */
 	.box_img1 {
@@ -1090,7 +1143,7 @@ header {
 	.image52 {
 		width: 85%;
 		margin-left: 12%;
-		margin-top: 7%
+		margin-top: 9%
 	}
 
 	/* --------------------- เนื้อหาชุดเก้า --------------------- */
