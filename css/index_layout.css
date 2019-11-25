@@ -38,6 +38,10 @@ header {
 	z-index: 4;
 }
 
+.book_size:hover {
+	cursor: pointer;
+}
+
 /* ปรับขนาดของรูปภาพตามสัดส่วนของ header */
 .visual_img {
 	position: absolute;
