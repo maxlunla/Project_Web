@@ -322,8 +322,8 @@ footer {
 
 .scroll-down {
   position: fixed;
-  bottom: 30px;
-  left: 93%;
+  bottom: 40px;
+  left: 91%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
