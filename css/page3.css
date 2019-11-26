@@ -585,6 +585,10 @@ footer {
 		text-align: center;
 	}
 
+		.scroll-down {
+		display: none;
+	}
+
 	/* แก้ไข footer */
 	footer {
 		width: 100%;
